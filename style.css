@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #333;
+  margin: 0;
+  height: 100vh;
+}
+.game{
+  text-align: center;
+  font-size: 30px;
+  color: #ffcc00; 
+  margin: auto;
+ 
+}
+.game:hover{
+  color: azure;
+}
+#arena {
+  background-color: #eee;
+  border: 3px solid #ffcc00;
+}
